@@ -20,25 +20,27 @@
         <h1>Welcome to a game of Rock, Paper, Scissors!</h1>
         <p>(Best out of 5!)</p>
       </div>
-      <div class="choice_section">
-        <h2>Choose your weapon!</h2>
+      <div class="game_section">
+        <h2 id="chose_weapon" class="display_none">Choose your weapon!</h2>
         <div class="choices_container">
-          <button id="rock" class="choice_btn">
+          <button class="start_btn">Start Game</button>
+          <button id="rock" class="choice_btn display_none">
             <img src="./images/rock.png" alt="rock" />
           </button>
-          <button id="paper" class="choice_btn">
+          <button id="paper" class="choice_btn display_none">
             <img src="./images/paper.png" alt="paper" />
           </button>
-          <button id="scissors" class="choice_btn">
+          <button id="scissors" class="choice_btn display_none">
             <img src="./images/scissors.png" alt="scissors" />
           </button>
         </div>
+        <div class="score_section">
+          <h2 id="cpu_choice_narrative"></h2>
+          <h2 id="round_narrative"></h2>
+          <h2 id="score_board"></h2>
+        </div>
       </div>
-      <div class="score_section">
-        <h2 id="round_narrative"></h2>
-        <h2 id="score_board"></h2>
-      </div>
-      <button class="new_game">New Game</button>
+      <button class="new_game display_none">New Game</button>
     </div>
   </body>
 </html>
