@@ -38,7 +38,7 @@ const getPlayerChoice = () => {
   });
   scissorsBtn.addEventListener("click", () => {
     playerChoice = "scissors";
-    getComputerChoice;
+    getComputerChoice();
     playRound();
   });
 };
