@@ -1,3 +1,47 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
 body {
-  color: red;
+  margin: 0 auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top_section {
+  text-align: center;
+}
+.choice_section {
+  text-align: center;
+}
+.choices_container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.choices_container img {
+  padding: 20px;
+  max-width: 30%;
+  max-height: 300px;
+}
+.choices_container button {
+  flex-basis: 20%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.choices_container button:hover {
+  background-color: rgb(124, 124, 242);
+}
+.new_game {
+  max-width: 10%;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.new_game:hover {
+  background-color: rgb(124, 124, 242);
 }

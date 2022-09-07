@@ -1,5 +1,3 @@
-console.log("Hello World!");
-
 const getComputerChoice = () => {
   const options = ["rock", "paper", "scissors"];
   const cpuChoice = options[Math.floor(Math.random() * options.length)];
