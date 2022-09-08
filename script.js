@@ -101,6 +101,7 @@ const reset = () => {
   newGameBtn.classList.add("display_none");
   roundNarrative.innerText = "";
   roundNarrative.style.color = "black";
+  cpuChoiceNarrative.classList.remove("display_none");
 };
 
 startBtn.addEventListener("click", startGame);
