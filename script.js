@@ -49,6 +49,7 @@ const getComputerChoice = () => {
 };
 
 const playRound = () => {
+  cpuChoiceNarrative.classList.remove("display_none");
   if (roundCount === 5) {
     checkWinner();
     return;
@@ -101,7 +102,6 @@ const reset = () => {
   newGameBtn.classList.add("display_none");
   roundNarrative.innerText = "";
   roundNarrative.style.color = "black";
-  cpuChoiceNarrative.classList.remove("display_none");
 };
 
 startBtn.addEventListener("click", startGame);
